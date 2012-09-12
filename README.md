@@ -8,11 +8,13 @@ Domain availability checker based on [React](http://nodephp.org).
 The recommended way to install Twig Gettext Extractor is through
 [composer](http://getcomposer.org).
 
-    {
-        "require": {
-            "umpirsky/twig-gettext-extractor": "1.1.*"
-        }
+```json
+{
+    "require": {
+        "umpirsky/wisdom": "dev-master"
     }
+}
+```
 
 ## Example
 
