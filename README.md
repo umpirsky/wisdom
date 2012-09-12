@@ -1,4 +1,4 @@
 Wisdom
 ======
 
-Domain availability checker (under development).
+Domain availability checker based on [React](http://nodephp.org).
