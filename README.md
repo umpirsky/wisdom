@@ -1,4 +1,4 @@
-wisdom
+Wisdom
 ======
 
-Domain availability checker
+Domain availability checker (under development).

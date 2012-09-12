@@ -1,0 +1,53 @@
+{
+    "hash": "76e81447c5b7c9132155f2bbc57c8a6c",
+    "packages": [
+        {
+            "package": "evenement/evenement",
+            "version": "1.0.x-dev",
+            "source-reference": "v1.0.0",
+            "commit-date": "1338390068"
+        },
+        {
+            "package": "react/async",
+            "version": "dev-master",
+            "source-reference": "42b3f74abb8e1984267d0899c0252ab1cc509059",
+            "commit-date": "1346151501"
+        },
+        {
+            "package": "react/curry",
+            "version": "dev-master",
+            "source-reference": "17a11f386697b267bcdae7d4532a6ddc7f062565",
+            "commit-date": "1347373152"
+        },
+        {
+            "package": "react/dns",
+            "version": "v0.2.0"
+        },
+        {
+            "package": "react/event-loop",
+            "version": "v0.2.0"
+        },
+        {
+            "package": "react/socket",
+            "version": "v0.2.0"
+        },
+        {
+            "package": "react/stream",
+            "version": "v0.2.0"
+        },
+        {
+            "package": "react/whois",
+            "version": "dev-master",
+            "source-reference": "fdfaadbe35cfbf8af776e47f6baafba9aec8bc94",
+            "commit-date": "1347317711"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "react/whois": 20
+    }
+}
