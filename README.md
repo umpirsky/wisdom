@@ -26,12 +26,7 @@ $wisdom->check('umpirsky.com', function ($domain, $available) {
     printf('Domain %s is %s.%s', $domain, $available ? 'available' : 'taken', PHP_EOL);
 });
 
-echo 'Checking domain...'.PHP_EOL;
-
-$loop->run();
-
 // Outputs:
-// Checking domain...
 // Domain umpirsky.com is taken.
 ```
 
