@@ -13,6 +13,9 @@ namespace Wisdom;
 
 use React\Whois\TestCase;
 use React\Whois\Client;
+use React\EventLoop\Factory as EventLoopFactory;
+use React\Dns\Resolver\Factory as ResolverFactory;
+use React\Socket\Connection;
 
 /**
  * Wisdom test.
@@ -24,7 +27,7 @@ class WisdomTest extends TestCase
     /**
      * @dataProvider testCheckDataProvider
      */
-    public function testCheck($domain, $whois, $available)
+    public function testCheck($domain, $available)
     {
         $callback = $this->createCallableStub();
         $callback
@@ -33,42 +36,19 @@ class WisdomTest extends TestCase
             ->with($domain, $available)
         ;
 
-        $resolver = $this->getMockBuilder('React\Dns\Resolver\Resolver')
-            ->disableOriginalConstructor()
-            ->getMock()
-        ;
+        $loop = EventLoopFactory::create();
+        $factory = new ResolverFactory();
+        $resolver = $factory->create('8.8.8.8', $loop);
 
-        $conn = $this->getMockBuilder('React\Whois\Stub\ConnectionStub')
-            ->setMethods(array(
-                'isReadable', 'pause', 'getRemoteAddress', 'resume', 'pipe', 'close', 'isWritable', 'write', 'end',
-            ))
-            ->getMock()
-        ;
-
-        $connFactory = function ($host) use ($conn) {
-            return $conn;
+        $connFactory = function ($ip) use ($loop) {
+            $fd = stream_socket_client("tcp://$ip:43");
+            return new Connection($fd, $loop);
         };
 
-        $client = new Client($resolver, $connFactory);
-
-        $self = $this;
-        $client->resolveWhoisServer($domain, function ($address) use ($self, $resolver, $domain, $callback) {
-            $resolver
-                ->expects($self->once())
-                ->method('resolve')
-                ->with($address)
-                ->will($this->returnCallback(function ($domain, $callback) {
-                    // whois.nic.io
-                    call_user_func($callback, '193.223.78.152');
-                }))
-            ;
-        });
-
-        $wisdom = new Wisdom($client);
+        $wisdom = new Wisdom(new Client($resolver, $connFactory));
         $wisdom->check($domain, $callback);
 
-        $conn->emit('data', array($whois));
-        $conn->emit('close');
+        $loop->run();
     }
 
     public function testCheckDataProvider()
@@ -76,9 +56,12 @@ class WisdomTest extends TestCase
         return array(
             array(
                 'umpirsky.net',
-                file_get_contents(__DIR__.'/Fixtures/whois/umpirsky.net'),
                 true
-            )
+            ),
+            array(
+                'umpirsky.com',
+                false
+            ),
         );
     }
 }
