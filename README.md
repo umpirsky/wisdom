@@ -5,7 +5,7 @@ Domain availability checker based on [React](http://nodephp.org).
 
 ## Installation
 
-The recommended way to install Twig Gettext Extractor is through
+The recommended way to install Wisdom is through
 [composer](http://getcomposer.org).
 
 ```json
