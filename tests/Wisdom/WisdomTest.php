@@ -67,20 +67,23 @@ class WisdomTest extends TestCase
     {
         $data = array();
         $domains = array(
-            'umpirsky-wisdom.com' => true,
-            'google.com'          => false,
-            'umpirsky-wisdom.net' => true,
-            'google.net'          => false,
-            'umpirsky-wisdom.io'  => true,
-            'google.io'           => true,
+            'umpirsky-wisdom' => true,
+            'google'          => false,
+        );
+        $tlds = array(
+            '.com',
+            '.net',
+            '.io',
         );
 
         foreach ($domains as $domain => $available) {
-            $data[] = array(
-                $domain,
-                file_get_contents(__DIR__.'/Fixtures/whois/'.$domain),
-                $available
-            );
+            foreach ($tlds as $tld) {
+                $data[] = array(
+                    $domain.$tld,
+                    file_get_contents(__DIR__.'/Fixtures/whois/'.$domain.$tld),
+                    $available
+                );
+            }
         }
 
         return $data;
