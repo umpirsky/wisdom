@@ -65,22 +65,21 @@ class WisdomTest extends TestCase
 
     public function testCheckDataProvider()
     {
-        return array(
-            array(
-                'umpirsky.com',
-                file_get_contents(__DIR__.'/Fixtures/whois/umpirsky.com'),
-                false
-            ),
-            array(
-                'umpirsky.net',
-                file_get_contents(__DIR__.'/Fixtures/whois/umpirsky.net'),
-                true
-            ),
-            array(
-                'umpirsky.io',
-                file_get_contents(__DIR__.'/Fixtures/whois/umpirsky.io'),
-                true
-            ),
+        $data = array();
+        $domains = array(
+            'umpirsky.com' => false,
+            'umpirsky.net' => true,
+            'umpirsky.io'  => true,
         );
+
+        foreach ($domains as $domain => $available) {
+            $data[] = array(
+                $domain,
+                file_get_contents(__DIR__.'/Fixtures/whois/'.$domain),
+                $available
+            );
+        }
+
+        return $data;
     }
 }
