@@ -74,6 +74,8 @@ class WisdomTest extends TestCase
             '.at',
             '.aero',
             '.am',
+            '.be',
+            '.biz',
             '.com',
             '.net',
             '.io',
