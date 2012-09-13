@@ -71,6 +71,9 @@ class WisdomTest extends TestCase
             'google'          => false,
         );
         $tlds = array(
+            '.at',
+            '.aero',
+            '.am',
             '.com',
             '.net',
             '.io',
