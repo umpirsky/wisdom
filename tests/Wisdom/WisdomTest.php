@@ -27,7 +27,7 @@ class WisdomTest extends TestCase
     /**
      * @dataProvider testCheckDataProvider
      */
-    public function testCheck($domain, $available)
+    public function testCheck($domain, $whois, $available)
     {
         $callback = $this->createCallableStub();
         $callback
@@ -36,19 +36,34 @@ class WisdomTest extends TestCase
             ->with($domain, $available)
         ;
 
-        $loop = EventLoopFactory::create();
-        $factory = new ResolverFactory();
-        $resolver = $factory->create('8.8.8.8', $loop);
+        $resolver = $this->getMockBuilder('React\Dns\Resolver\Resolver')
+            ->disableOriginalConstructor()
+            ->getMock()
+        ;
+        $resolver
+            ->expects($this->once())
+            ->method('resolve')
+            ->with(substr(strrchr($domain, '.'), 1).'.whois-servers.net')
+            ->will($this->returnCallback(function ($domain, $callback) {
+                call_user_func($callback, null);
+            }))
+        ;
 
-        $connFactory = function ($ip) use ($loop) {
-            $fd = stream_socket_client("tcp://$ip:43");
-            return new Connection($fd, $loop);
+        $conn = $this->getMockBuilder('React\Whois\Stub\ConnectionStub')
+            ->setMethods(array(
+                'isReadable', 'pause', 'getRemoteAddress', 'resume', 'pipe', 'close', 'isWritable', 'write', 'end',
+            ))
+            ->getMock();
+
+        $connFactory = function ($host) use ($conn) {
+            return $conn;
         };
 
         $wisdom = new Wisdom(new Client($resolver, $connFactory));
         $wisdom->check($domain, $callback);
 
-        $loop->run();
+        $conn->emit('data', array($whois));
+        $conn->emit('close');
     }
 
     public function testCheckDataProvider()
@@ -56,10 +71,12 @@ class WisdomTest extends TestCase
         return array(
             array(
                 'umpirsky.net',
+                file_get_contents(__DIR__.'/Fixtures/whois/umpirsky.net'),
                 true
             ),
             array(
                 'umpirsky.com',
+                file_get_contents(__DIR__.'/Fixtures/whois/umpirsky.com'),
                 false
             ),
         );

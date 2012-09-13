@@ -33,8 +33,3 @@ $wisdom->check($domains, function ($domain, $available) {
 echo 'Checking domains...'.PHP_EOL;
 
 $loop->run();
-
-// Outputs:
-// Checking domains...
-// Domain umpirsky.com is taken.
-// Domain umpirsky.net is available.
