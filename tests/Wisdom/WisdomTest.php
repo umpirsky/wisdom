@@ -13,9 +13,6 @@ namespace Wisdom;
 
 use React\Whois\TestCase;
 use React\Whois\Client;
-use React\EventLoop\Factory as EventLoopFactory;
-use React\Dns\Resolver\Factory as ResolverFactory;
-use React\Socket\Connection;
 
 /**
  * Wisdom test.
