@@ -67,9 +67,12 @@ class WisdomTest extends TestCase
     {
         $data = array();
         $domains = array(
-            'umpirsky.com' => false,
-            'umpirsky.net' => true,
-            'umpirsky.io'  => true,
+            'umpirsky-wisdom.com' => true,
+            'google.com'          => false,
+            'umpirsky-wisdom.net' => true,
+            'google.net'          => false,
+            'umpirsky-wisdom.io'  => true,
+            'google.io'           => true,
         );
 
         foreach ($domains as $domain => $available) {

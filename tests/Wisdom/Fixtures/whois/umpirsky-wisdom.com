@@ -1,11 +1,12 @@
+
 Whois Server Version 2.0
 
 Domain names in the .com and .net domains can now be registered
 with many different competing registrars. Go to http://www.internic.net
 for detailed information.
 
-No match for "UMPIRSKY.NET".
->>> Last update of whois database: Wed, 12 Sep 2012 19:08:27 UTC <<<
+No match for "UMPIRSKY-WISDOM.COM".
+>>> Last update of whois database: Thu, 13 Sep 2012 07:58:49 UTC <<<
 
 NOTICE: The expiration date displayed in this record is the date the
 registrar's sponsorship of the domain name registration in the registry is
