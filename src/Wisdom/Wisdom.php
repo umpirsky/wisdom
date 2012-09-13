@@ -12,6 +12,7 @@
 namespace Wisdom;
 
 use React\Whois\Client;
+use Wisdom\Whois\Parser\Factory;
 
 /**
  * Parses whois data to determine domain availability.
@@ -45,8 +46,7 @@ class Wisdom
     {
         foreach ((array) $domains as $domain) {
             $this->client->query($domain, function ($result) use ($domain, $callback) {
-                $available = stripos($result, 'No match') !== false;
-                $callback($domain, $available);
+                $callback($domain, Factory::create($domain, $result)->isAvailable());
             });
         }
     }

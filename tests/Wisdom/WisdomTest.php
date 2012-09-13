@@ -67,14 +67,19 @@ class WisdomTest extends TestCase
     {
         return array(
             array(
+                'umpirsky.com',
+                file_get_contents(__DIR__.'/Fixtures/whois/umpirsky.com'),
+                false
+            ),
+            array(
                 'umpirsky.net',
                 file_get_contents(__DIR__.'/Fixtures/whois/umpirsky.net'),
                 true
             ),
             array(
-                'umpirsky.com',
-                file_get_contents(__DIR__.'/Fixtures/whois/umpirsky.com'),
-                false
+                'umpirsky.io',
+                file_get_contents(__DIR__.'/Fixtures/whois/umpirsky.io'),
+                true
             ),
         );
     }
