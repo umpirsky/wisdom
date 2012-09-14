@@ -52,14 +52,4 @@ abstract class AbstractParser implements ParserInterface
     {
         return stripos($this->whois, $token) !== false;
     }
-
-    /**
-     * Gets uppercased domain name.
-     *
-     * @return string
-     */
-    protected function getDomainUppercase()
-    {
-        return strtoupper($this->domain);
-    }
 }

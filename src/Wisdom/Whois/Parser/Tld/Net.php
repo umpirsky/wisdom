@@ -11,17 +11,11 @@
 
 namespace Wisdom\Whois\Parser\Tld;
 
-use Wisdom\Whois\Parser\AbstractParser;
-
 /**
  * Whois parser for .net domains.
  *
  * @author Саша Стаменковић <umpirsky@gmail.com>
  */
-class Net extends AbstractParser
+class Net extends Com
 {
-    public function isAvailable()
-    {
-        return $this->contains(sprintf('No match for "%s".', $this->getDomainUppercase()));
-    }
 }

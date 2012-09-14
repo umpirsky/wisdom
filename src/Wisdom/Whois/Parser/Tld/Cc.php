@@ -11,17 +11,11 @@
 
 namespace Wisdom\Whois\Parser\Tld;
 
-use Wisdom\Whois\Parser\AbstractParser;
-
 /**
- * Whois parser for .com domains.
+ * Whois parser for .cc domains.
  *
  * @author Саша Стаменковић <umpirsky@gmail.com>
  */
-class Com extends AbstractParser
+class Cc extends Com
 {
-    public function isAvailable()
-    {
-        return $this->contains(sprintf('No match for "%s".', $this->domain));
-    }
 }

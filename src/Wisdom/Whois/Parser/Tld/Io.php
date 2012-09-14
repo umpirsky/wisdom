@@ -22,6 +22,6 @@ class Io extends AbstractParser
 {
     public function isAvailable()
     {
-        return $this->contains(sprintf('Domain "%s" - Available', $this->getDomainUppercase()));
+        return $this->contains(sprintf('Domain "%s" - Available', $this->domain));
     }
 }
