@@ -14,14 +14,14 @@ namespace Wisdom\Whois\Parser\Tld;
 use Wisdom\Whois\Parser\AbstractParser;
 
 /**
- * Whois parser for .biz domains.
+ * Whois parser for .de domains.
  *
  * @author Саша Стаменковић <umpirsky@gmail.com>
  */
-class Biz extends AbstractParser
+class De extends AbstractParser
 {
     public function isAvailable()
     {
-        return $this->contains('Not found: %s');
+        return $this->contains('Status: free');
     }
 }

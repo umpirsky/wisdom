@@ -50,6 +50,6 @@ abstract class AbstractParser implements ParserInterface
      */
     protected function contains($token)
     {
-        return stripos($this->whois, $token) !== false;
+        return stripos($this->whois, sprintf($token, $this->domain)) !== false;
     }
 }

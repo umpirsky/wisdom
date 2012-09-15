@@ -22,6 +22,6 @@ class Com extends AbstractParser
 {
     public function isAvailable()
     {
-        return $this->contains(sprintf('No match for "%s".', $this->domain));
+        return $this->contains('No match for "%s".');
     }
 }
