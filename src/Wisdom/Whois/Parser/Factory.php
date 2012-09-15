@@ -23,8 +23,8 @@ class Factory
     /**
      * Creates whois parser for given domain name.
      *
-     * @param string $domain
-     * @param string $whois
+     * @param  string    $domain
+     * @param  string    $whois
      * @return Interface
      */
     public static function create($domain, $whois)

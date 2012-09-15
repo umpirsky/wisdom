@@ -45,7 +45,7 @@ abstract class AbstractParser implements ParserInterface
     /**
      * Checks if whois contains given token.
      *
-     * @param string $token
+     * @param  string $token
      * @return bool
      */
     protected function contains($token)

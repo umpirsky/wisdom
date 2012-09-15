@@ -17,6 +17,7 @@ $resolver = $factory->create('8.8.8.8', $loop);
 
 $connFactory = function ($ip) use ($loop) {
     $fd = stream_socket_client("tcp://$ip:43");
+
     return new React\Socket\Connection($fd, $loop);
 };
 
