@@ -88,6 +88,8 @@ class WisdomTest extends TestCase
             '.in',
             '.info',
             '.it',
+            '.jobs',
+            '.jp',
             '.net',
         );
 
