@@ -11,11 +11,17 @@
 
 namespace Wisdom\Whois\Parser\Tld;
 
+use Wisdom\Whois\Parser\AbstractParser;
+
 /**
- * Whois parser for .be domains.
+ * Whois parser for .eu domains.
  *
  * @author Саша Стаменковић <umpirsky@gmail.com>
  */
-class Be extends Eu
+class Eu extends AbstractParser
 {
+    public function isAvailable()
+    {
+        return $this->contains('Status:	AVAILABLE');
+    }
 }

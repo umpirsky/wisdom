@@ -71,18 +71,20 @@ class WisdomTest extends TestCase
             'google'          => false,
         );
         $tlds = array(
-            '.at',
             '.aero',
             '.am',
+            '.at',
             '.be',
             '.biz',
             '.cc',
-            '.com',
             '.co.uk',
+            '.com',
             '.de',
             '.dk',
-            '.net',
+            '.dk',
+            '.eu',
             '.io',
+            '.net',
         );
 
         foreach ($domains as $domain => $available) {
