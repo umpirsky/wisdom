@@ -11,11 +11,17 @@
 
 namespace Wisdom\Whois\Parser\Tld;
 
+use Wisdom\Whois\Parser\AbstractParser;
+
 /**
- * Whois parser for .aero domains.
+ * Whois parser for .info domains.
  *
  * @author Саша Стаменковић <umpirsky@gmail.com>
  */
-class Aero extends Info
+class Info extends AbstractParser
 {
+    public function isAvailable()
+    {
+        return $this->contains('NOT FOUND');
+    }
 }

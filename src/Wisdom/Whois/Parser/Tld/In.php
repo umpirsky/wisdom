@@ -12,10 +12,10 @@
 namespace Wisdom\Whois\Parser\Tld;
 
 /**
- * Whois parser for .aero domains.
+ * Whois parser for .in domains.
  *
  * @author Саша Стаменковић <umpirsky@gmail.com>
  */
-class Aero extends Info
+class In extends Info
 {
 }
