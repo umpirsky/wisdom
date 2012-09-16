@@ -96,6 +96,8 @@ class WisdomTest extends TestCase
             '.net',
             '.nl',
             '.nu',
+            '.org',
+            '.org.uk',
         );
 
         foreach ($domains as $domain => $available) {
