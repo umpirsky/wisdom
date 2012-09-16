@@ -1,7 +1,7 @@
 Wisdom [![Build Status](https://secure.travis-ci.org/umpirsky/wisdom.png)](http://travis-ci.org/umpirsky/wisdom)
 ======
 
-Domain availability checker based on [React](http://nodephp.org).
+Domain availability checker based on [React/Whois](https://github.com/react-php/whois).
 
 ## Installation
 
