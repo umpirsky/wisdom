@@ -11,11 +11,17 @@
 
 namespace Wisdom\Whois\Parser\Tld;
 
+use Wisdom\Whois\Parser\AbstractParser;
+
 /**
- * Whois parser for .am domains.
+ * Whois parser for .nu domains.
  *
  * @author Саша Стаменковић <umpirsky@gmail.com>
  */
-class Am extends Name
+class Nu extends AbstractParser
 {
+    public function isAvailable()
+    {
+        return $this->contains('NO MATCH for domain "%s"');
+    }
 }
