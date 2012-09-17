@@ -83,10 +83,10 @@ class WisdomTest extends TestCase
             '.dk',
             '.dk',
             '.eu',
-            '.io',
             '.fr',
             '.in',
             '.info',
+            '.io',
             '.it',
             '.jobs',
             '.jp',
@@ -104,6 +104,7 @@ class WisdomTest extends TestCase
             '.se',
             '.tv',
             '.us',
+            '.xxx',
         );
 
         foreach ($domains as $domain => $available) {
