@@ -1,6 +1,6 @@
 {
     "name": "umpirsky/wisdom",
-    "type": "application",
+    "type": "library",
     "description": "Domain availability checker.",
     "license": "MIT",
     "authors": [
