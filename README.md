@@ -1,8 +1,8 @@
 Wisdom [![Build Status](https://secure.travis-ci.org/umpirsky/wisdom.png)](http://travis-ci.org/umpirsky/wisdom)
 ======
+<img src="https://raw.github.com/umpirsky/wisdom/master/icon/icon.png" />
 
 Domain availability checker based on [React/Whois](https://github.com/react-php/whois).
-
 ## Installation
 
 The recommended way to install Wisdom is through
