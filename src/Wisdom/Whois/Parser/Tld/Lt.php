@@ -21,7 +21,7 @@ use Wisdom\Whois\Parser\AbstractParser;
 class Lt extends AbstractParser
 {
     public function isAvailable()
-	{
+    {
         // we strip multiple spaces here
         $this->whois = preg_replace("/\s/", '', $this->whois);
 
