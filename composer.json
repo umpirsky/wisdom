@@ -11,7 +11,7 @@
     ],
     "require": {
         "php":         ">=5.3.3",
-        "react/whois": "dev-master"
+        "reactphp/whois": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {
