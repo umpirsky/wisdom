@@ -90,6 +90,8 @@ class WisdomTest extends TestCase
             '.it',
             '.jobs',
             '.jp',
+            '.lt',
+            '.lv',
             '.me',
             '.mobi',
             '.name',
