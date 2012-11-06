@@ -14,17 +14,14 @@ namespace Wisdom\Whois\Parser\Tld;
 use Wisdom\Whois\Parser\AbstractParser;
 
 /**
- * Whois parser for .lt domains.
+ * Whois parser for .lv domains.
  *
  * @author Jaroslav Petrusevic (huglester@gmail.com)
  */
-class Lt extends AbstractParser
+class Lv extends AbstractParser
 {
 	public function isAvailable()
 	{
-		// we strip multiple spaces here
-		$this->whois = preg_replace("/\s/", '', $this->whois);
-
-		return $this->contains('Status:available');
+		return $this->contains('Status: free');
 	}
 }
