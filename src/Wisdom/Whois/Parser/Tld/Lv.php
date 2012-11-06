@@ -20,8 +20,8 @@ use Wisdom\Whois\Parser\AbstractParser;
  */
 class Lv extends AbstractParser
 {
-	public function isAvailable()
-	{
-		return $this->contains('Status: free');
-	}
+    public function isAvailable()
+    {
+        return $this->contains('Status: free');
+    }
 }

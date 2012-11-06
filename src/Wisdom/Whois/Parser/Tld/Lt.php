@@ -20,11 +20,11 @@ use Wisdom\Whois\Parser\AbstractParser;
  */
 class Lt extends AbstractParser
 {
-	public function isAvailable()
+    public function isAvailable()
 	{
-		// we strip multiple spaces here
-		$this->whois = preg_replace("/\s/", '', $this->whois);
+        // we strip multiple spaces here
+        $this->whois = preg_replace("/\s/", '', $this->whois);
 
-		return $this->contains('Status:available');
-	}
+        return $this->contains('Status:available');
+    }
 }
