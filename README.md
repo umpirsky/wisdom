@@ -50,7 +50,7 @@ $ whois google.ch > tests/Wisdom/Fixtures/whois/google.ch
 * Identify a string in the `umpirsky-wisdom` variant that identifies the
   domain as available.
 
-* Create the `Wisdom\Whois\Parser\Tld` class and implement the `isAvailable`
+* Create the `Wisdom\Whois\Parser\Ch` class and implement the `isAvailable`
   method.
 
 * Run the tests to make sure they pass.
