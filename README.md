@@ -37,9 +37,10 @@ See more [examples](https://github.com/umpirsky/wisdom/tree/master/examples).
 This example uses the `ch` domain, replace `.ch` with your own one.
 
 * First, create the test cases:
-
-      $ whois umpirsky-wisdom.ch > tests/Wisdom/Fixtures/whois/umpirsky-wisdom.ch
-      $ whois google.ch > tests/Wisdom/Fixtures/whois/google.ch
+```
+$ whois umpirsky-wisdom.ch > tests/Wisdom/Fixtures/whois/umpirsky-wisdom.ch
+$ whois google.ch > tests/Wisdom/Fixtures/whois/google.ch
+```
 
   Modify the `testCheckDataProvider` in `tests/Wisdom/WisdomTest.php` to
   include `.ch`.
