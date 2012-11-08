@@ -40,7 +40,7 @@ class Wisdom
     /**
      * Checks domain availability.
      *
-     * @param string|array $domain
+     * @param string $domain
      */
     public function check($domain)
     {
