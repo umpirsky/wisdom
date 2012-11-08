@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-* 0.1.0 (2012-xx-xx)
+* 0.1.0 (2012-11-08)
 
   * Changed to promise-based API
 
