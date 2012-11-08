@@ -1,5 +1,5 @@
 {
-    "hash": "425477bf14db8125c20350c8ecd6afc0",
+    "hash": "4f4f0c53f09a59e62099499d4382c166",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -290,28 +290,33 @@
         },
         {
             "name": "react/whois",
-            "version": "dev-promise",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/whois",
-                "reference": "07d3970bd1a72fb6545a6d0358fc616aee690596"
+                "reference": "v0.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/reactphp/whois/archive/07d3970bd1a72fb6545a6d0358fc616aee690596.zip",
-                "reference": "07d3970bd1a72fb6545a6d0358fc616aee690596",
+                "url": "https://github.com/reactphp/whois/archive/v0.1.0.zip",
+                "reference": "v0.1.0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
-                "react/dns": "0.2.*",
-                "react/socket": "0.2.*",
                 "react/curry": "1.0.*",
                 "react/promise": "1.0.*",
+                "react/dns": "0.2.*",
+                "react/socket": "0.2.*",
                 "react/stream": "0.2.*"
             },
-            "time": "1352335125",
+            "time": "2012-11-08 09:56:39",
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -332,7 +337,7 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "react/whois": 20
-    }
+    "stability-flags": [
+
+    ]
 }

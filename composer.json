@@ -11,7 +11,7 @@
     ],
     "require": {
         "php":         ">=5.3.3",
-        "react/whois": "dev-promise"
+        "react/whois": "0.1.*"
     },
     "autoload": {
         "psr-0": { "Wisdom": "src" }
