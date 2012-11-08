@@ -14,12 +14,7 @@ require __DIR__.'/../vendor/autoload.php';
 $loop = React\EventLoop\Factory::create();
 $factory = new React\Dns\Resolver\Factory();
 $resolver = $factory->create('8.8.8.8', $loop);
-
-$connFactory = function ($ip) use ($loop) {
-    $fd = stream_socket_client("tcp://$ip:43");
-
-    return new React\Socket\Connection($fd, $loop);
-};
+$connFactory = new React\Whois\ConnectionFactory($loop);
 
 $domains = array(
     'umpirsky.com',
@@ -27,9 +22,19 @@ $domains = array(
 );
 
 $wisdom = new Wisdom\Wisdom(new React\Whois\Client($resolver, $connFactory));
-$wisdom->check($domains, function ($domain, $available) {
-    printf('Domain %s is %s.%s', $domain, $available ? 'available' : 'taken', PHP_EOL);
-});
+$wisdom
+    ->check('igor.io')
+    ->then(function ($available) {
+        $domain = 'igor.io';
+        printf('Domain %s is %s.%s', $domain, $available ? 'available' : 'taken', PHP_EOL);
+    });
+$wisdom
+    ->checkAll($domains)
+    ->then(function ($statuses) {
+        foreach ($statuses as $domain => $available) {
+            printf('Domain %s is %s.%s', $domain, $available ? 'available' : 'taken', PHP_EOL);
+        }
+    });
 
 echo 'Checking domains...'.PHP_EOL;
 

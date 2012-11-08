@@ -11,9 +11,8 @@
     ],
     "require": {
         "php":         ">=5.3.3",
-        "react/whois": "dev-master"
+        "react/whois": "0.1.*"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-0": { "Wisdom": "src" }
     }
