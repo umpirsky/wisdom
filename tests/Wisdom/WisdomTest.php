@@ -30,7 +30,7 @@ class WisdomTest extends TestCase
         $callback
             ->expects($this->once())
             ->method('__invoke')
-            ->with($domain, $available)
+            ->with($available)
         ;
 
         $resolver = $this->getMockBuilder('React\Dns\Resolver\Resolver')
@@ -48,7 +48,7 @@ class WisdomTest extends TestCase
 
         $conn = $this->getMockBuilder('React\Whois\Stub\ConnectionStub')
             ->setMethods(array(
-                'isReadable', 'pause', 'getRemoteAddress', 'resume', 'pipe', 'close', 'isWritable', 'write', 'end',
+                'isReadable', 'pause', 'getRemoteAddress', 'resume', 'close', 'isWritable', 'write', 'end',
             ))
             ->getMock();
 
@@ -57,10 +57,12 @@ class WisdomTest extends TestCase
         };
 
         $wisdom = new Wisdom(new Client($resolver, $connFactory));
-        $wisdom->check($domain, $callback);
+        $wisdom
+            ->check($domain)
+            ->then($callback);
 
         $conn->emit('data', array($whois));
-        $conn->emit('close');
+        $conn->emit('end');
     }
 
     public function testCheckDataProvider()

@@ -22,9 +22,11 @@ The recommended way to install Wisdom is through
 <?php
 
 $wisdom = new Wisdom($client);
-$wisdom->check('umpirsky.com', function ($domain, $available) {
-    printf('Domain %s is %s.', $domain, $available ? 'available' : 'taken');
-});
+$wisdom
+    ->check('umpirsky.com')
+    ->then(function ($available) use ($domain) {
+        printf('Domain %s is %s.', $domain, $available ? 'available' : 'taken');
+    });
 
 // Outputs:
 // Domain umpirsky.com is taken.

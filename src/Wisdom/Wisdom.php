@@ -11,6 +11,7 @@
 
 namespace Wisdom;
 
+use React\Promise\When;
 use React\Whois\Client;
 use Wisdom\Whois\Parser\Factory;
 
@@ -39,15 +40,28 @@ class Wisdom
     /**
      * Checks domain availability.
      *
-     * @param string|array $domains
-     * @param callable     $callback
+     * @param string|array $domain
      */
-    public function check($domains, $callback)
+    public function check($domain)
     {
-        foreach ((array) $domains as $domain) {
-            $this->client->query($domain, function ($result) use ($domain, $callback) {
-                $callback($domain, Factory::create($domain, $result)->isAvailable());
+        return $this->client
+            ->query($domain)
+            ->then(function ($result) use ($domain) {
+                return Factory::create($domain, $result)->isAvailable();
             });
-        }
+    }
+
+    /**
+     * Checks domain availability of multiple domains.
+     *
+     * @param array $domains
+     */
+    public function checkAll(array $domains)
+    {
+        return When::map($domains, array($this, 'check'))
+            ->then(function ($statuses) use ($domains) {
+                return array_combine($domains, $statuses);
+            });
+
     }
 }
