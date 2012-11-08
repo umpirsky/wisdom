@@ -11,17 +11,11 @@
 
 namespace Wisdom\Whois\Parser\Tld;
 
-use Wisdom\Whois\Parser\AbstractParser;
-
 /**
  * Whois parser for .co domains.
  *
  * @author Tyler King <tyler.king@newfie.co>
  */
-class Co extends AbstractParser
+class Co extends Biz
 {
-    public function isAvailable()
-    {
-        return $this->contains('Not found: %s');
-    }
 }
