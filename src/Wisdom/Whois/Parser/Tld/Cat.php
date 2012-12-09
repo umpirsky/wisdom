@@ -14,7 +14,7 @@ namespace Wisdom\Whois\Parser\Tld;
 use Wisdom\Whois\Parser\AbstractParser;
 
 /**
- * Whois parser for .caR domains.
+ * Whois parser for .cat domains.
  *
  * @author Tyler King <tyler.king@newfie.co>
  */
