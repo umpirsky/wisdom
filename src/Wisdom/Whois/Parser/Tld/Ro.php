@@ -14,7 +14,7 @@ namespace Wisdom\Whois\Parser\Tld;
 use Wisdom\Whois\Parser\AbstractParser;
 
 /**
- * Whois parser for .hu domains.
+ * Whois parser for .ro domains.
  *
  * @author Nagy Róbert <vrnagy@gmail.com>
  */
