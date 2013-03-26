@@ -108,6 +108,7 @@ class WisdomTest extends TestCase
             '.org',
             '.org.uk',
             '.pl',
+            '.ro',
             '.rs',
             '.ru',
             '.se',
