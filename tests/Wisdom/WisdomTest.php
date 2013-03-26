@@ -90,6 +90,7 @@ class WisdomTest extends TestCase
             '.dk',
             '.eu',
             '.fr',
+            '.hu',
             '.in',
             '.info',
             '.io',
