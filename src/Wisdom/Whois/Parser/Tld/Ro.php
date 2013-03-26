@@ -11,17 +11,11 @@
 
 namespace Wisdom\Whois\Parser\Tld;
 
-use Wisdom\Whois\Parser\AbstractParser;
-
 /**
  * Whois parser for .ro domains.
  *
  * @author Nagy Róbert <vrnagy@gmail.com>
  */
-class Ro extends AbstractParser
+class Ro extends Ru
 {
-    public function isAvailable()
-    {
-        return $this->contains('No entries found');
-    }
 }
