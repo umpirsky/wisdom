@@ -13,6 +13,7 @@ namespace Wisdom;
 
 use React\Whois\TestCase;
 use React\Whois\Client;
+use Symfony\Component\Finder\Finder;
 
 /**
  * Wisdom test.
@@ -59,7 +60,8 @@ class WisdomTest extends TestCase
         $wisdom = new Wisdom(new Client($resolver, $connFactory));
         $wisdom
             ->check($domain)
-            ->then($callback);
+            ->then($callback)
+        ;
 
         $conn->emit('data', array($whois));
         $conn->emit('end');
@@ -68,63 +70,15 @@ class WisdomTest extends TestCase
     public function testCheckDataProvider()
     {
         $data = array();
-        $domains = array(
-            'umpirsky-wisdom' => true,
-            'google'          => false,
-        );
-        $tlds = array(
-            '.aero',
-            '.am',
-            '.at',
-            '.be',
-            '.biz',
-            '.ca',
-            '.cat',
-            '.cc',
-            '.ch',
-            '.co',
-            '.co.uk',
-            '.com',
-            '.de',
-            '.dk',
-            '.dk',
-            '.eu',
-            '.fr',
-            '.hu',
-            '.in',
-            '.info',
-            '.io',
-            '.it',
-            '.jobs',
-            '.jp',
-            '.lt',
-            '.lv',
-            '.me',
-            '.mobi',
-            '.name',
-            '.net',
-            '.nl',
-            '.nu',
-            '.org',
-            '.org.uk',
-            '.pl',
-            '.ro',
-            '.rs',
-            '.ru',
-            '.se',
-            '.tv',
-            '.us',
-            '.xxx',
-        );
 
-        foreach ($domains as $domain => $available) {
-            foreach ($tlds as $tld) {
-                $data[] = array(
-                    $domain.$tld,
-                    file_get_contents(__DIR__.'/Fixtures/whois/'.$domain.$tld),
-                    $available
-                );
-            }
+        $finder = new Finder();
+
+        foreach ($finder->files()->in(__DIR__.'/Fixtures/whois') as $domain) {
+            $data[] = array(
+                $domain->getFilename(),
+                file_get_contents($domain->getRealPath()),
+                0 === strpos($domain->getFilename(), 'umpirsky-wisdom')
+            );
         }
 
         return $data;

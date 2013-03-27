@@ -45,9 +45,6 @@ $ whois umpirsky-wisdom.ch > tests/Wisdom/Fixtures/whois/umpirsky-wisdom.ch
 $ whois google.ch > tests/Wisdom/Fixtures/whois/google.ch
 ```
 
-  Modify the `testCheckDataProvider` in `tests/Wisdom/WisdomTest.php` to
-  include `.ch`.
-
 * Run the tests to make sure they fail.
 
 * Identify a string in the `umpirsky-wisdom` variant that identifies the
