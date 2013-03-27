@@ -7,7 +7,7 @@ Go to http://registrar.verisign-grs.com/whois/ for detailed information.
 
 No match for "UMPIRSKY-WISDOM.CC".
 
->>> Last update of whois database: 2012-09-14T11:00:49Z <<<
+>>> Last update of whois database: 2013-03-27T22:01:14Z <<<
 
 NOTICE: The expiration date displayed in this record is the date the 
 registrar's sponsorship of the domain name registration in the registry is 

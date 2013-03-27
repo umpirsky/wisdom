@@ -1,4 +1,4 @@
-% Copyright (c)2012 by NIC.AT (1)                                       
+% Copyright (c)2013 by NIC.AT (1)                                       
 %
 % Restricted rights.
 %
@@ -24,8 +24,8 @@
 domain:         google.at
 registrant:     GI7803022-NICAT
 admin-c:        GI7803024-NICAT
-tech-c:         GI7803025-NICAT
 tech-c:         GI1919751-NICAT
+tech-c:         GI7803025-NICAT
 nserver:        ns1.google.com
 remarks:        216.239.32.10
 nserver:        ns2.google.com
@@ -63,19 +63,6 @@ nic-hdl:        GI7803024-NICAT
 changed:        20110111 00:07:55
 source:         AT-DOM
 
-personname:     DNS Admin
-organization:   Google Inc.
-street address: 1600 Amphitheatre Parkway
-postal code:    94043
-city:           Mountain View
-country:        United States
-phone:          +16502530000
-fax-no:         +16502530001
-e-mail:         dns-admin@google.com
-nic-hdl:        GI7803025-NICAT
-changed:        20110111 00:08:30
-source:         AT-DOM
-
 personname:     
 organization:   Google Inc.
 street address: 1600 Amphitheatre Parkway
@@ -87,5 +74,18 @@ fax-no:         +16506188571
 e-mail:         dns-admin@google.com
 nic-hdl:        GI1919751-NICAT
 changed:        20050617 21:36:20
+source:         AT-DOM
+
+personname:     DNS Admin
+organization:   Google Inc.
+street address: 1600 Amphitheatre Parkway
+postal code:    94043
+city:           Mountain View
+country:        United States
+phone:          +16502530000
+fax-no:         +16502530001
+e-mail:         dns-admin@google.com
+nic-hdl:        GI7803025-NICAT
+changed:        20110111 00:08:30
 source:         AT-DOM
 

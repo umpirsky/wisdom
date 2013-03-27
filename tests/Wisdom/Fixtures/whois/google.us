@@ -1,12 +1,13 @@
 Domain Name:                                 GOOGLE.US
 Domain ID:                                   D775573-US
 Sponsoring Registrar:                        MARKMONITOR, INC.
+Sponsoring Registrar IANA ID:                292
 Registrar URL (registration services):       whois.markmonitor.com
 Domain Status:                               clientDeleteProhibited
 Domain Status:                               clientTransferProhibited
 Domain Status:                               clientUpdateProhibited
-Registrant ID:                               MMR-87489
-Registrant Name:                             DNS Admin
+Registrant ID:                               MMR-135878
+Registrant Name:                             Google Inc
 Registrant Organization:                     Google Inc.
 Registrant Address1:                         1600 Amphitheatre Parkway
 Registrant City:                             Mountain View
@@ -18,9 +19,9 @@ Registrant Phone Number:                     +1.6502530000
 Registrant Facsimile Number:                 +1.6502530001
 Registrant Email:                            dns-admin@google.com
 Registrant Application Purpose:              P1
-Registrant Nexus Category:                   C11
-Administrative Contact ID:                   MMR-87489
-Administrative Contact Name:                 DNS Admin
+Registrant Nexus Category:                   C21
+Administrative Contact ID:                   MMR-136042
+Administrative Contact Name:                 Christina Chiou
 Administrative Contact Organization:         Google Inc.
 Administrative Contact Address1:             1600 Amphitheatre Parkway
 Administrative Contact City:                 Mountain View
@@ -32,9 +33,9 @@ Administrative Contact Phone Number:         +1.6502530000
 Administrative Contact Facsimile Number:     +1.6502530001
 Administrative Contact Email:                dns-admin@google.com
 Administrative Application Purpose:          P1
-Administrative Nexus Category:               C11
-Billing Contact ID:                          MMR-87489
-Billing Contact Name:                        DNS Admin
+Administrative Nexus Category:               C21
+Billing Contact ID:                          MMR-136042
+Billing Contact Name:                        Christina Chiou
 Billing Contact Organization:                Google Inc.
 Billing Contact Address1:                    1600 Amphitheatre Parkway
 Billing Contact City:                        Mountain View
@@ -46,9 +47,9 @@ Billing Contact Phone Number:                +1.6502530000
 Billing Contact Facsimile Number:            +1.6502530001
 Billing Contact Email:                       dns-admin@google.com
 Billing Application Purpose:                 P1
-Billing Nexus Category:                      C11
-Technical Contact ID:                        MMR-87489
-Technical Contact Name:                      DNS Admin
+Billing Nexus Category:                      C21
+Technical Contact ID:                        MMR-136042
+Technical Contact Name:                      Christina Chiou
 Technical Contact Organization:              Google Inc.
 Technical Contact Address1:                  1600 Amphitheatre Parkway
 Technical Contact City:                      Mountain View
@@ -60,7 +61,7 @@ Technical Contact Phone Number:              +1.6502530000
 Technical Contact Facsimile Number:          +1.6502530001
 Technical Contact Email:                     dns-admin@google.com
 Technical Application Purpose:               P1
-Technical Nexus Category:                    C11
+Technical Nexus Category:                    C21
 Name Server:                                 NS1.GOOGLE.COM
 Name Server:                                 NS2.GOOGLE.COM
 Name Server:                                 NS3.GOOGLE.COM
@@ -69,10 +70,10 @@ Created by Registrar:                        BULKREGISTER.COM, INC.
 Last Updated by Registrar:                   MARKMONITOR, INC.
 Last Transferred Date:                       Fri Jul 22 18:37:41 GMT 2005
 Domain Registration Date:                    Fri Apr 19 23:15:57 GMT 2002
-Domain Expiration Date:                      Thu Apr 18 23:59:59 GMT 2013
-Domain Last Updated Date:                    Sat Mar 17 09:27:11 GMT 2012
+Domain Expiration Date:                      Fri Apr 18 23:59:59 GMT 2014
+Domain Last Updated Date:                    Sun Mar 17 09:44:30 GMT 2013
 
->>>> Whois database was last updated on: Mon Sep 17 08:27:13 GMT 2012 <<<<
+>>>> Whois database was last updated on: Wed Mar 27 21:59:29 GMT 2013 <<<<
 
 NeuStar, Inc., the Registry Administrator for .US, has collected this
 information for the WHOIS database through a .US-Accredited Registrar.

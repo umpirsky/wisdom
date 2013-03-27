@@ -18,8 +18,8 @@ you agree to abide by this policy.
 Domain ID:D2244233-LROR
 Domain Name:GOOGLE.ORG
 Created On:21-Oct-1998 04:00:00 UTC
-Last Updated On:04-Mar-2009 12:07:19 UTC
-Expiration Date:20-Oct-2012 04:00:00 UTC
+Last Updated On:18-Sep-2012 09:20:07 UTC
+Expiration Date:20-Oct-2013 04:00:00 UTC
 Sponsoring Registrar:MarkMonitor Inc. (R37-LROR)
 Status:CLIENT DELETE PROHIBITED
 Status:CLIENT TRANSFER PROHIBITED

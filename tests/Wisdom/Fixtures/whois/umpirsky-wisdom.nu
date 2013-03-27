@@ -11,5 +11,5 @@ registered in .nu is available upon request from support@nic.nu
 
 Copyright by .NU Domain Ltd - http://www.nunames.nu
 ------------------------------------------------------------------------
-Database last updated: 2012-Sep-16 16:56:38 GMT
+Database last updated: 2013-Mar-27 19:44:25 GMT
 ------------------------------------------------------------------------

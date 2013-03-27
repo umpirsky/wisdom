@@ -9,7 +9,7 @@ Go to http://registrar.verisign-grs.com/whois/ for detailed information.
    Domain ID: 86420657
    Whois Server: whois.markmonitor.com
    Referral URL: http://www.markmonitor.com
-   Updated Date: 2012-05-10T18:50:28Z
+   Updated Date: 2012-12-07T17:59:39Z
    Creation Date: 1999-06-07T00:00:00Z
    Expiration Date: 2013-06-07T00:00:00Z
    Sponsoring Registrar: MARKMONITOR INC.
@@ -17,6 +17,9 @@ Go to http://registrar.verisign-grs.com/whois/ for detailed information.
    Domain Status: CLIENT-DELETE-PROHIBITED
    Domain Status: CLIENT-UPDATE-PROHIBITED
    Domain Status: CLIENT-XFER-PROHIBITED
+   Domain Status: SERVER-DELETE-PROHIBITED
+   Domain Status: SERVER-UPDATE-PROHIBITED
+   Domain Status: SERVER-XFER-PROHIBITED
    Name Server: NS1.GOOGLE.COM
    Name Server: NS2.GOOGLE.COM
    Name Server: NS3.GOOGLE.COM
@@ -24,7 +27,7 @@ Go to http://registrar.verisign-grs.com/whois/ for detailed information.
    DNSSEC: Unsigned delegation
 
 
->>> Last update of whois database: 2012-09-14T11:01:04Z <<<
+>>> Last update of whois database: 2013-03-27T22:00:44Z <<<
 
 NOTICE: The expiration date displayed in this record is the date the 
 registrar's sponsorship of the domain name registration in the registry is 
@@ -63,10 +66,10 @@ and Registrars.
 
 MarkMonitor is the Global Leader in Online Brand Protection.
 
-Domain Management
-MarkMonitor Brand Protection™
-MarkMonitor AntiPiracy™
-MarkMonitor AntiFraud™
+MarkMonitor Domain Management(TM)
+MarkMonitor Brand Protection(TM)
+MarkMonitor AntiPiracy(TM)
+MarkMonitor AntiFraud(TM)
 Professional and Managed Services
 
 Visit MarkMonitor at www.markmonitor.com
@@ -116,28 +119,28 @@ Registrant:
 
     Created on..............: 1999-06-07.
     Expires on..............: 2013-06-06.
-    Record last updated on..: 2012-05-06.
+    Record last updated on..: 2013-02-18.
 
     Domain servers in listed order:
 
-    ns2.google.com
     ns1.google.com
-    ns4.google.com
     ns3.google.com
+    ns2.google.com
+    ns4.google.com
     
 
 
 
 MarkMonitor is the Global Leader in Online Brand Protection.
 
-Domain Management
-MarkMonitor Brand Protection™
-MarkMonitor AntiPiracy™
-MarkMonitor AntiFraud™
+MarkMonitor Domain Management(TM)
+MarkMonitor Brand Protection(TM)
+MarkMonitor AntiPiracy(TM)
+MarkMonitor AntiFraud(TM)
 Professional and Managed Services
 
 Visit MarkMonitor at www.markmonitor.com
 Contact us at 1 (800) 745-9229
 In Europe, at +44 (0) 203 206 2220
 
-
+--

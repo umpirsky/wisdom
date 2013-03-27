@@ -5,12 +5,6 @@ Domain names in the .com and .net domains can now be registered
 with many different competing registrars. Go to http://www.internic.net
 for detailed information.
 
-   Server Name: GOOGLE.COM.ZZZZZZZZZZZZZZZZZZZZZZZZZZZ.LOVE.AND.TOLERANCE.THE-WONDERBOLTS.COM
-   IP Address: 50.62.130.9
-   Registrar: GODADDY.COM, LLC
-   Whois Server: whois.godaddy.com
-   Referral URL: http://registrar.godaddy.com
-
    Server Name: GOOGLE.COM.ZZZZZZZZZZZZZZZZZZZZZZZZZZ.HAVENDATA.COM
    IP Address: 50.23.75.44
    Registrar: PDR LTD. D/B/A PUBLICDOMAINREGISTRY.COM
@@ -25,7 +19,7 @@ for detailed information.
 
    Server Name: GOOGLE.COM.ZZZZZ.GET.LAID.AT.WWW.SWINGINGCOMMUNITY.COM
    IP Address: 69.41.185.195
-   Registrar: TUCOWS.COM CO.
+   Registrar: TUCOWS DOMAINS INC.
    Whois Server: whois.tucows.com
    Referral URL: http://domainhelp.opensrs.net
 
@@ -40,12 +34,6 @@ for detailed information.
    Registrar: PDR LTD. D/B/A PUBLICDOMAINREGISTRY.COM
    Whois Server: whois.PublicDomainRegistry.com
    Referral URL: http://www.PublicDomainRegistry.com
-
-   Server Name: GOOGLE.COM.Z.LOVE.AND.TOLERANCE.THE-WONDERBOLTS.COM
-   IP Address: 50.62.130.9
-   Registrar: GODADDY.COM, LLC
-   Whois Server: whois.godaddy.com
-   Referral URL: http://registrar.godaddy.com
 
    Server Name: GOOGLE.COM.YUCEKIRBAC.COM
    IP Address: 88.246.115.134
@@ -154,9 +142,9 @@ for detailed information.
 
    Server Name: GOOGLE.COM.LOLOLOLOLOL.SHTHEAD.COM
    IP Address: 123.123.123.123
-   Registrar: AUST DOMAINS INTERNATIONAL PTY LTD DBA AUST DOMAINS, INC.
+   Registrar: CRAZY DOMAINS FZ-LLC
    Whois Server: whois.syra.com.au
-   Referral URL: http://www.austdomains.com.au
+   Referral URL: http://www.crazydomains.com 
 
    Server Name: GOOGLE.COM.LASERPIPE.COM
    IP Address: 209.85.227.106
@@ -195,15 +183,9 @@ for detailed information.
 
    Server Name: GOOGLE.COM.HAS.LESS.FREE.PORN.IN.ITS.SEARCH.ENGINE.THAN.SECZY.COM
    IP Address: 209.187.114.130
-   Registrar: TUCOWS.COM CO.
+   Registrar: TUCOWS DOMAINS INC.
    Whois Server: whois.tucows.com
    Referral URL: http://domainhelp.opensrs.net
-
-   Server Name: GOOGLE.COM.ESJUEGOS.NET
-   IP Address: 97.74.144.165
-   Registrar: PDR LTD. D/B/A PUBLICDOMAINREGISTRY.COM
-   Whois Server: whois.PublicDomainRegistry.com
-   Referral URL: http://www.PublicDomainRegistry.com
 
    Server Name: GOOGLE.COM.DO
    Registrar: GODADDY.COM, LLC
@@ -225,12 +207,6 @@ for detailed information.
    Whois Server: whois.enom.com
    Referral URL: http://www.enom.com
 
-   Server Name: GOOGLE.COM.BITERMANSOLUTIONS.COM
-   IP Address: 8.8.8.8
-   Registrar: GODADDY.COM, LLC
-   Whois Server: whois.godaddy.com
-   Referral URL: http://registrar.godaddy.com
-
    Server Name: GOOGLE.COM.BEYONDWHOIS.COM
    IP Address: 203.36.226.2
    Registrar: INSTRA CORPORATION PTY, LTD.
@@ -247,28 +223,10 @@ for detailed information.
    Whois Server: whois.enom.com
    Referral URL: http://www.enom.com
 
-   Server Name: GOOGLE.COM.ALL.THE.PEOPLE.WHO.SPAM.THE.WHOIS.ARE.SERIOUSLY.ANNOYING.SOMEPONY.COM
-   IP Address: 50.62.130.9
-   Registrar: GODADDY.COM, LLC
-   Whois Server: whois.godaddy.com
-   Referral URL: http://registrar.godaddy.com
-
    Server Name: GOOGLE.COM.AFRICANBATS.ORG
-   Registrar: TUCOWS.COM CO.
+   Registrar: TUCOWS DOMAINS INC.
    Whois Server: whois.tucows.com
    Referral URL: http://domainhelp.opensrs.net
-
-   Server Name: GOOGLE.COM.9.THE-WONDERBOLTS.COM
-   IP Address: 50.62.130.9
-   Registrar: GODADDY.COM, LLC
-   Whois Server: whois.godaddy.com
-   Referral URL: http://registrar.godaddy.com
-
-   Server Name: GOOGLE.COM.1.THE-WONDERBOLTS.COM
-   IP Address: 50.62.130.9
-   Registrar: GODADDY.COM, LLC
-   Whois Server: whois.godaddy.com
-   Referral URL: http://registrar.godaddy.com
 
    Domain Name: GOOGLE.COM
    Registrar: MARKMONITOR INC.
@@ -288,7 +246,7 @@ for detailed information.
    Creation Date: 15-sep-1997
    Expiration Date: 14-sep-2020
 
->>> Last update of whois database: Thu, 13 Sep 2012 08:02:40 UTC <<<
+>>> Last update of whois database: Wed, 27 Mar 2013 22:00:22 UTC <<<
 
 NOTICE: The expiration date displayed in this record is the date the 
 registrar's sponsorship of the domain name registration in the registry is 
@@ -326,10 +284,10 @@ Registrars.
 
 MarkMonitor is the Global Leader in Online Brand Protection.
 
-Domain Management
-MarkMonitor Brand Protection™
-MarkMonitor AntiPiracy™
-MarkMonitor AntiFraud™
+MarkMonitor Domain Management(TM)
+MarkMonitor Brand Protection(TM)
+MarkMonitor AntiPiracy(TM)
+MarkMonitor AntiFraud(TM)
 Professional and Managed Services
 
 Visit MarkMonitor at www.markmonitor.com
@@ -379,24 +337,24 @@ Registrant:
 
     Created on..............: 1997-09-15.
     Expires on..............: 2020-09-13.
-    Record last updated on..: 2012-01-29.
+    Record last updated on..: 2013-02-28.
 
     Domain servers in listed order:
 
     ns3.google.com
+    ns1.google.com
     ns2.google.com
     ns4.google.com
-    ns1.google.com
     
 
 
 
 MarkMonitor is the Global Leader in Online Brand Protection.
 
-Domain Management
-MarkMonitor Brand Protection™
-MarkMonitor AntiPiracy™
-MarkMonitor AntiFraud™
+MarkMonitor Domain Management(TM)
+MarkMonitor Brand Protection(TM)
+MarkMonitor AntiPiracy(TM)
+MarkMonitor AntiFraud(TM)
 Professional and Managed Services
 
 Visit MarkMonitor at www.markmonitor.com

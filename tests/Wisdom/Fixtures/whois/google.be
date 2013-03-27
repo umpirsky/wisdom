@@ -42,11 +42,11 @@ Registrant:
 	Not shown, please visit www.dns.be for webbased whois.
 
 Registrar Technical Contacts:
-	Name:	CCOPS
-	Organisation:	MarkMonitor
+	Name:	MarkMonitor Inc.
+	Organisation:	MarkMonitor Inc.
 	Language:	en
 	Phone:	+1.2083895740
-	Fax:	+1.2083895799
+	Fax:	+1.2083895771
 	Email:	ccops@markmonitor.com
 
 
@@ -55,10 +55,10 @@ Registrar:
 	Website: http://www.markmonitor.com
 
 Nameservers:
+	ns4.google.com
+	ns3.google.com
 	ns1.google.com
 	ns2.google.com
-	ns3.google.com
-	ns4.google.com
 
 Keys:
 

@@ -21,8 +21,8 @@ Domain Name ACE: google.cat
 Domain Language: ca
 Registrar ID: R-2009 (MarkMonitor)
 Created On: 2006-02-14 08:55:44 GMT
-Last Updated On: 2012-01-13 10:19:15 GMT
-Expiration Date: 2013-02-14 08:55:44 GMT
+Last Updated On: 2013-01-13 10:21:27 GMT
+Expiration Date: 2014-02-14 08:55:44 GMT
 Status: clientTransferProhibited, clientDeleteProhibited, clientUpdateProhibited
 Registrant ID: 14290820
 Registrant Name: DNS Admin
@@ -80,12 +80,12 @@ Billing Phone Ext:
 Billing Fax: +1.6506188571
 Billing Fax Ext: 
 Billing Email: 
-Name Server: ns2.google.com 
-Name Server ACE: ns2.google.com 
 Name Server: ns3.google.com 
 Name Server ACE: ns3.google.com 
-Name Server: ns4.google.com 
-Name Server ACE: ns4.google.com 
+Name Server: ns2.google.com 
+Name Server ACE: ns2.google.com 
 Name Server: ns1.google.com 
 Name Server ACE: ns1.google.com 
+Name Server: ns4.google.com 
+Name Server ACE: ns4.google.com 
 

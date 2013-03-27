@@ -22,7 +22,7 @@ documented by VeriSign, Inc. but will not be used for any commercial purpose wha
  **** 
 Domain Name ID: 5802011DOMAIN-NAME
 Domain Name: GOOGLE.NAME
-Domain Status: clientDeleteProhibited
-Domain Status: clientTransferProhibited
-Domain Status: clientUpdateProhibited
+Domain Status: serverDeleteProhibited
+Domain Status: serverTransferProhibited
+Domain Status: serverUpdateProhibited
 

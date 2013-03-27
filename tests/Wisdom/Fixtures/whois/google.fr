@@ -10,7 +10,7 @@
 %%
 %% Use '-h' option to obtain more information about this service.
 %%
-%% [109.92.105.220 REQUEST] >> -V Md5.0 google.fr
+%% [109.92.120.157 REQUEST] >> -V Md5.0 google.fr
 %%
 %% RL Net [##########] - RL IP [#########.]
 %%
@@ -49,6 +49,27 @@ anonymous:   NO
 registered:  10/01/2002
 source:      FRNIC
 
+nic-hdl:     GIH6-FRNIC
+type:        ORGANIZATION
+contact:     Google Ireland Holdings
+address:     70 Sir John Rogersons Quay
+address:     2 Dublin
+country:     IE
+phone:       +353 14361000
+e-mail:      dns-admin@google.com
+registrar:   MARKMONITOR Inc.
+changed:     21/03/2013 nic@nic.fr
+anonymous:   NO
+obsoleted:   NO
+eligstatus:  ok
+eligsource:  REGISTRAR
+eligdate:    30/12/2011 18:15:32
+reachmedia:  email
+reachstatus: ok
+reachsource: REGISTRAR
+reachdate:   21/03/2013 20:35:43
+source:      FRNIC
+
 nic-hdl:     TT599-FRNIC
 type:        PERSON
 contact:     Tu Tsao
@@ -58,6 +79,7 @@ address:     75002 Paris
 country:     FR
 phone:       +33 6 50 33 00 10
 e-mail:      dns-admin@google.com
+registrar:   MARKMONITOR Inc.
 changed:     15/02/2011 nic@nic.fr
 anonymous:   NO
 obsoleted:   NO
@@ -74,28 +96,9 @@ country:     US
 phone:       +1 2083895740
 fax-no:      +1 2083895771
 e-mail:      ccops@markmonitor.com
+registrar:   MARKMONITOR Inc.
 changed:     14/06/2011 nic@nic.fr
 anonymous:   NO
 obsoleted:   NO
-source:      FRNIC
-
-nic-hdl:     GIH6-FRNIC
-type:        ORGANIZATION
-contact:     Google Ireland Holdings
-address:     70 Sir John Rogersons Quay
-address:     2 Dublin
-country:     IE
-phone:       +353 14361000
-e-mail:      dns-admin@google.com
-changed:     29/02/2012 nic@nic.fr
-anonymous:   NO
-obsoleted:   NO
-eligstatus:  ok
-eligsource:  REGISTRAR
-eligdate:    30/12/2011 18:15:32
-reachmedia:  email
-reachstatus: ok
-reachsource: REGISTRAR
-reachdate:   29/02/2012 20:21:39
 source:      FRNIC
 
