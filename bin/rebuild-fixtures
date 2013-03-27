@@ -1,0 +1,5 @@
+#!/bin/sh
+ls "tests/Wisdom/Fixtures/whois" | while read f; do
+    whois $f > tests/Wisdom/Fixtures/whois/$f
+    echo $f
+done
