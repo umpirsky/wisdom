@@ -60,6 +60,7 @@ class Wisdom
     {
         return When::map($domains, array($this, 'check'))
             ->then(function ($statuses) use ($domains) {
+                ksort($statuses);
                 return array_combine($domains, $statuses);
             });
 
