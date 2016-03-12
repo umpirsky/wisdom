@@ -21,18 +21,6 @@ Wisdom [![Build Status](https://secure.travis-ci.org/umpirsky/wisdom.png)](http:
 <img src="https://raw.github.com/umpirsky/wisdom/master/icon/icon.png" />
 
 Domain availability checker based on [React/Whois](https://github.com/reactphp/whois).
-## Installation
-
-The recommended way to install Wisdom is through
-[composer](http://getcomposer.org).
-
-```json
-{
-    "require": {
-        "umpirsky/wisdom": "dev-master"
-    }
-}
-```
 
 ## Example
 
@@ -80,7 +68,3 @@ $ whois google.ch > tests/Wisdom/Fixtures/whois/google.ch
 To run the test suite, you need [PHPUnit](https://github.com/sebastianbergmann/phpunit).
 
     $ phpunit
-
-## License
-
-Wisdom is licensed under the MIT license.
