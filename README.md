@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://github.com/umpirsky/Symfony-Upgrade-Fixer">symfony upgrade fixer</a> &bull;
   <a href="https://github.com/umpirsky/Twig-Gettext-Extractor">twig gettext extractor</a> &bull;
-  <a href="https://github.com/umpirsky/wisdom">wisdom</a> &bull;
+  <b>wisdom</b> &bull;
   <a href="https://github.com/umpirsky/centipede">centipede</a> &bull;
   <a href="https://github.com/umpirsky/PermissionsHandler">permissions handler</a> &bull;
   <a href="https://github.com/umpirsky/Extraload">extraload</a> &bull;
