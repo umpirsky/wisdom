@@ -16,7 +16,7 @@
   <a href="https://github.com/umpirsky/Transliterator">transliterator</a>
 </p>
 
-Wisdom [![Build Status](https://secure.travis-ci.org/umpirsky/wisdom.png)](http://travis-ci.org/umpirsky/wisdom)
+Wisdom [![Build Status](https://secure.travis-ci.org/umpirsky/wisdom.svg)](http://travis-ci.org/umpirsky/wisdom)
 ======
 <img src="https://raw.github.com/umpirsky/wisdom/master/icon/icon.png" />
 
